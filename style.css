@@ -43,10 +43,23 @@
   }
 
 
+  .section-2 {
+    padding: 3rem 0;
+    position: relative;
+    height: 80dvh;
+    display: flex;
+
+}
+.section-2  h2{
+    text-align: center;
+}
+.services-wrapper {
+    background-color: rgba(245, 245, 245, 0.474);
+    /* text-align: center; */
+}
   .service {
     height: 10rem;
-
-    outline: 2px solid green;
+    /* outline: 2px solid green; */
   }
 
   /* tablet and pc  */
@@ -68,4 +81,32 @@
         position: relative;
         top: 5rem;
     }
+
+/* 
+    .section-2 {
+ 
+    } */
+    .services-wrapper {
+        position: absolute;
+        width: 70%;
+    }
+    .service {
+        height: 12rem;
+   
+      }
+    .section-2-bg-image{
+        /* background-color: green; */
+        background-image: url('./images/dentist.jpg');
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-attachment: fixed;
+        background-position-x: top;
+        height: 30rem;
+        width: 80%;
+        z-index: -1;
+        position: absolute;
+        top: 10rem;
+        right: -6%;
+    }
+    
   }
