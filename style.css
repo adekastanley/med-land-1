@@ -92,14 +92,37 @@ main {
 .section-2 {
    display: flex; 
    justify-content: center;
+   flex-direction: column;
+   /* background-color: red; */
+   
 }
 
 
 
 .service-wrapper {
   display: grid;
+  width: 100%;
+  /* background-color: yellow; */
   grid-template-columns: repeat( 1fr);
 
+}
+.service {
+  width: 100%;
+  /* background-color: green; */
+  display: flex;
+  justify-content: center;
+}
+.card {
+  width: 100%;
+  /* background-color: green; */
+}
+.incard-wrapper {
+  background-color: red;
+  width: 50%;
+}
+.incard {
+  display: grid;
+  grid-template-columns:repeat( 2, 1fr);
 }
 /* 
 
