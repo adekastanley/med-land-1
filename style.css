@@ -93,6 +93,7 @@ main {
    display: flex; 
    justify-content: center;
    flex-direction: column;
+  /* padding: 0 3rem; */
    /* background-color: red; */
    
 }
@@ -112,18 +113,32 @@ main {
   display: flex;
   justify-content: center;
 }
+.card-body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  /* padding: 0px 13rem; */
+}
 .card {
   width: 100%;
   /* background-color: green; */
+
 }
 .incard-wrapper {
-  background-color: red;
+  background-color: blue;
+
   width: 50%;
 }
 .incard {
   display: grid;
   grid-template-columns:repeat( 2, 1fr);
 }
+
+.card-body .btn {
+  margin-top: 1rem;
+  width: 10rem;
+} 
 /* 
 
 
@@ -157,6 +172,10 @@ main {
         width: 100%;
         padding: 0 5rem;
         /* background-color: red; */
+      }
+
+      .section-2 {
+        padding: 0 6rem;
       }
 }
 
