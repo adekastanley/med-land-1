@@ -45,6 +45,8 @@ main {
   flex-direction: column;
   justify-content: center;
   /* background-color: red; */
+  background-image: url('./images/mid-image.jpg');
+
 }
 .hero-text-container h1{
   font-size: 14px;
@@ -176,7 +178,7 @@ main {
     }
     .hero-text-container {
       top: 10rem;
-
+      background-image: none;
       }
 
       .section-1 {
@@ -218,6 +220,7 @@ main {
 
   .hero-text-container {
     top: 3rem;
+    background-image: none;
   }
   .hero-text-container h2{
     width: 60%;
