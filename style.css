@@ -45,7 +45,7 @@ main {
   flex-direction: column;
   justify-content: center;
   /* background-color: red; */
-  background-image: url('./images/mid-image.jpg');
+  /* background-image: url('./images/mid-image.jpg'); */
 
 }
 .hero-text-container h1{
