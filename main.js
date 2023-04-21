@@ -40,12 +40,12 @@ mm.add("(max-width: 1200px)", () => {
     // duration: 1,
     opacity: 0,
     x: -100,
-    stagger: 0.5,
+    // stagger: 0.5,
     yPercent: "BezierEasing(0.19,1,0.22,1)",
     scrollTrigger: {
-      trigger: ".section-4",
+      trigger: ".section-3",
       start: "top 100%",
-      end: "bottom 99%",
+      end: "bottom 90%",
       scrub: true,
     },
   });
@@ -81,21 +81,19 @@ mm.add("(min-width: 1200px)", () => {
       scrub: true,
     },
   })
-
-  .from(".why-choose", {
-    // delay: 0,
-    // duration: 1,
-    opacity: 0,
-    // x: 80,
-    stagger: 0.5,
-    yPercent: "BezierEasing(0.19,1,0.22,1)",
-    scrollTrigger: {
-      trigger: ".section-4",
-      start: "top 100%",
-      end: "bottom 99%",
-      scrub: true,
-    },
-  });
+.from(".why-choose", {
+  // delay: 0,
+  // duration: 1,
+  opacity: 0,
+  y: 100,
+  // stagger: .05,
+  yPercent: "BezierEasing(0.19,1,0.22,1)",
+  scrollTrigger: {
+    trigger: ".section-3",
+    start: "top 80%",
+    end: "bottom 100%",
+    scrub: true,
+  },
 });
-
+});
 
