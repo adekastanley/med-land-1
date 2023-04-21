@@ -18,8 +18,9 @@ mm.add("(max-width: 1200px)",()=> {
     })
     gsap.from('.section-1', {
         opacity: 0,
-        duration: 1.5,
-        // x: '-70px'
+        duration: 2,
+        ease: 1
+        // x: '-100px'
     });
     gsap.registerPlugin(ScrollTrigger);
     gsap.timeline()
