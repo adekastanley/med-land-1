@@ -20,7 +20,8 @@ mm.add("(max-width: 1200px)", () => {
     // x: '-100px'
   });
   gsap.registerPlugin(ScrollTrigger);
-  gsap.timeline().from(".service", {
+  gsap.timeline()
+  .from(".service", {
     // delay: 0,
     // duration: 1,
     opacity: 0,
@@ -42,9 +43,9 @@ mm.add("(max-width: 1200px)", () => {
     stagger: 0.5,
     yPercent: "BezierEasing(0.19,1,0.22,1)",
     scrollTrigger: {
-      trigger: ".section-3",
+      trigger: ".section-4",
       start: "top 100%",
-      end: "bottom 90%",
+      end: "bottom 99%",
       scrub: true,
     },
   });
@@ -64,8 +65,9 @@ mm.add("(min-width: 1200px)", () => {
     // x: '-70px'
   });
 
-  gsap.registerPlugin(ScrollTrigger);
-  gsap.timeline().from(".service", {
+  gsap.registerPlugin(ScrollTrigger)
+  gsap.timeline()
+  .from(".service", {
     // delay: 0,
     // duration: 1,
     opacity: 0,
@@ -79,7 +81,8 @@ mm.add("(min-width: 1200px)", () => {
       scrub: true,
     },
   })
-.from(".why-choose", {
+
+  .from(".why-choose", {
     // delay: 0,
     // duration: 1,
     opacity: 0,
@@ -87,10 +90,12 @@ mm.add("(min-width: 1200px)", () => {
     stagger: 0.5,
     yPercent: "BezierEasing(0.19,1,0.22,1)",
     scrollTrigger: {
-      trigger: ".section-3",
+      trigger: ".section-4",
       start: "top 100%",
-      end: "bottom 70%",
+      end: "bottom 99%",
       scrub: true,
     },
   });
 });
+
+
