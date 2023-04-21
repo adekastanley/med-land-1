@@ -33,8 +33,8 @@ mm.add("(max-width: 1200px)", () => {
       end: "bottom 90%",
       scrub: true,
     },
-  });
-  gsap.timeline().from(".why-choose", {
+  })
+.from(".why-choose", {
     // delay: 0,
     // duration: 1,
     opacity: 0,
@@ -78,8 +78,8 @@ mm.add("(min-width: 1200px)", () => {
       end: "bottom 70%",
       scrub: true,
     },
-  });
-  gsap.timeline().from(".why-choose", {
+  })
+.from(".why-choose", {
     // delay: 0,
     // duration: 1,
     opacity: 0,
